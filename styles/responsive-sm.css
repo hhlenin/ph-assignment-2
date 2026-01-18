@@ -1,0 +1,25 @@
+@media screen and (max-width:576px)  {
+    .section {
+        width: 93%;
+        max-width: 536px;
+    }
+    .nav-items {
+        height: 5.75rem;
+    }
+    .logo {
+        width: 8.5rem;
+        height: 1.25rem;
+    }
+    .nav-links {
+        display: none;
+    }
+    .nav-button {
+        display: none;
+    }
+    .collapse-btn {
+        display: block;
+    }
+    .collapse-btn a {
+        height: 1.5rem;
+    }
+}

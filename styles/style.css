@@ -10,7 +10,7 @@
 
 /*Common Classes*/
 .bg-1 {
-    background-color: #412567;
+    background-color: #1A0B2E;
 }
 .bg-2 {
     background-color: #230E3D;
@@ -66,4 +66,7 @@
     border-radius: 10000px;
     background-image: linear-gradient(45deg, #F7E93F, #FB09B4, #9100F8);
     border: none;
+}
+.collapse-btn {
+    display: none;
 }
