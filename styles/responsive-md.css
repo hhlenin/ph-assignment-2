@@ -21,4 +21,15 @@
     .hero {
         padding: 6.25rem 2.5rem;
     }
+
+    .why-choose-group {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        grid-template-areas:
+            "pa pa"
+            "gc mf"
+            "rr rr"
+            "ei ei";
+    }
 }

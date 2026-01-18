@@ -15,6 +15,9 @@
 .bg-2 {
     background-color: #230E3D;
 }
+.bg-3 {
+    background-color: rgba(53, 17, 101, .4) ;
+}
 .color-white{
     color: #FFFF;
 }
@@ -33,11 +36,23 @@
 .fw-semibold {
     font-weight: 600;
 }
+.fw-bold {
+    font-weight: 700;
+}
 .fw-extrabold {
     font-weight: 800;
 }
-.fs-80{
+.fs-48 {
+    font-size: 3rem;
+}
+.fs-24 {
+    font-size: 1.5rem;
+}
+.fs-80 {
     font-size: 5rem;
+}
+.text-center {
+    text-align: center;
 }
 .section {
     width: 75%;
@@ -122,4 +137,59 @@
 }
 .hero-buttons {
     margin-top: 1.5rem;
+}
+.why-choose {
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+}
+.why-choose h3 {
+    padding-bottom: 2.5rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2.5rem;
+    border-radius: 2.5rem;
+    text-align: left;
+}
+.card img {
+    height: 3.75rem;
+    width: 3.75rem;
+}
+.card h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.card p {
+    line-height: 1.5rem;
+}
+.premium-audio {
+    grid-area: pa;
+}
+.mobile-friendly {
+    grid-area: mf;
+}
+.global-community {
+    grid-area: gc;
+}
+.exclusive-interviews {
+    grid-area: ei;
+}
+.rich-resources {
+    grid-area: rr;
+}
+
+.why-choose-group {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /*grid-template-rows: auto 1fr auto;*/
+    gap: 2rem;
+    grid-template-areas:
+            "pa mf mf"
+            "pa gc gc"
+            "ei ei rr";
 }

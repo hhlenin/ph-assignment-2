@@ -25,4 +25,18 @@
     .hero {
         padding: 2.5rem;
     }
+
+    .why-choose {
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+    }
+
+    .why-choose-group {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+        grid-template-areas:
+            "pa" "mf"
+            "gc"
+            "ei" "rr";
+    }
 }
