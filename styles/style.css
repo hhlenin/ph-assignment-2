@@ -40,6 +40,15 @@
     margin: 0 auto;
     border: 1px solid black;
 }
+.btn {
+    padding: .8rem 1rem;
+    border-radius: 10000px;
+    font-weight: 600;
+    color: #ffff;
+    background-image: linear-gradient(45deg, #F7E93F, #FB09B4, #9100F8);
+    border: none;
+}
+
 /*Dedicated Classes*/
 .nav-items {
     height: 5.75rem;
@@ -61,12 +70,48 @@
     text-decoration: none;
     margin-left: 2rem;
 }
-.btn {
-    padding: .8rem 1rem;
-    border-radius: 10000px;
-    background-image: linear-gradient(45deg, #F7E93F, #FB09B4, #9100F8);
-    border: none;
-}
 .collapse-btn {
     display: none;
+}
+
+.hero {
+    margin-top: 6.25rem;
+    text-align: center;
+    background-image: url("../assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+}
+.hero-content {
+
+}
+.images-group {
+    margin: 0 auto;
+    width: 350px;
+    position: relative;
+    top: -35px;
+}
+.hero-circle {
+    position: relative;
+}
+.hero-microphone {
+    position: absolute;
+    left: 120px;
+    top: 80px;
+}
+.badge {
+    background-color: #00FF88;
+    font-weight: 600;
+    width: 4.5rem;
+    height: 2.5rem;
+    text-align: center;
+    border-radius: 1000px;
+    position: absolute;
+    left: 256px;
+    top: 16px;
+}
+.badge p {
+    margin: auto;
+    padding: .6rem 1rem;
+
 }
