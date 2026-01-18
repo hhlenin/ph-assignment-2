@@ -18,4 +18,7 @@
         flex-grow: 2;
         order: 4;
     }
+    .hero {
+        padding: 6.25rem 2.5rem;
+    }
 }

@@ -33,7 +33,12 @@
 .fw-semibold {
     font-weight: 600;
 }
-
+.fw-extrabold {
+    font-weight: 800;
+}
+.fs-80{
+    font-size: 5rem;
+}
 .section {
     width: 75%;
     max-width: 1200px;
@@ -75,12 +80,12 @@
 }
 
 .hero {
-    margin-top: 6.25rem;
     text-align: center;
     background-image: url("../assets/hero-bg.png");
     background-repeat: no-repeat;
     background-position: center ;
     background-size: cover;
+    padding: 6.25rem;
 }
 .hero-content {
 
@@ -114,4 +119,7 @@
     margin: auto;
     padding: .6rem 1rem;
 
+}
+.hero-buttons {
+    margin-top: 1.5rem;
 }
