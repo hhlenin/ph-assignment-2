@@ -8,9 +8,62 @@
     padding: 0;
 }
 
+/*Common Classes*/
+.bg-1 {
+    background-color: #412567;
+}
+.bg-2 {
+    background-color: #230E3D;
+}
+.color-white{
+    color: #FFFF;
+}
+.flex {
+    display: flex;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.align-center {
+    align-items: center;
+}
+.fw-medium {
+    font-weight: 500;
+}
+.fw-semibold {
+    font-weight: 600;
+}
+
 .section {
     width: 75%;
     max-width: 1200px;
     margin: 0 auto;
     border: 1px solid black;
+}
+/*Dedicated Classes*/
+.nav-items {
+    height: 5.75rem;
+}
+.logo {
+    width: 13.5rem;
+    height: 2rem;
+}
+.logo img {
+    max-width: 100%;
+}
+.nav-links ul {
+    list-style: none;
+}
+.nav-links ul li {
+    display: inline-block;
+}
+.nav-links ul li a {
+    text-decoration: none;
+    margin-left: 2rem;
+}
+.btn {
+    padding: .8rem 1rem;
+    border-radius: 10000px;
+    background-image: linear-gradient(45deg, #F7E93F, #FB09B4, #9100F8);
+    border: none;
 }
