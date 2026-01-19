@@ -130,6 +130,9 @@
     position: absolute;
     left: 256px;
     top: 16px;
+    animation-name: shakes;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
 }
 .badge p {
     margin: auto;
@@ -268,7 +271,9 @@
 .video-length p {
     color: #00FF88;
 }
-.meet-host h3{
+.meet-host{
+    padding-bottom: 7.5rem;
+}.meet-host h3{
     margin-bottom: 2.5rem;
 }
 .host-card {
@@ -349,4 +354,22 @@ footer .container {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+@keyframes shakes {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-20deg) translate(-50%, -50%);
+    }
+    50% {
+        transform: rotate(20deg);
+    }
+    75% {
+        transform: rotate(-20deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
 }
