@@ -35,9 +35,19 @@
         top: 7.6rem;
         left: 9.5rem;
     }
+    .hero-buttons {
+        margin-top: 1.5rem;
+    }
     .badge {
         top: 4.5rem;
         left: 14rem;
+    }
+    .about {
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+    }
+    .achievements {
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .why-choose {
