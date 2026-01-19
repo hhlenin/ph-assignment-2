@@ -146,6 +146,32 @@
     border: .1rem solid #00FF88 !important;
     margin-left: .5rem;
 }
+.about {
+    padding-top: 3.2rem;
+    padding-bottom: 7.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.about-text {
+    margin: 0 16rem 5rem 16rem;
+    border: 1px;
+}
+.about-text p {
+    line-height: 1.25rem;
+}
+.achievements {
+    margin-top: 5rem;
+    gap: 5rem;
+}
+.achievement h5 {
+    font-size: 3rem;
+    color: #00FF88;
+    padding-bottom: 1rem;
+    font-weight: 800;
+}
+.achievements p {
+    text-transform: uppercase;
+}
 .why-choose {
     padding-top: 7.5rem;
     padding-bottom: 7.5rem;
@@ -162,9 +188,13 @@
     border-radius: 2.5rem;
     text-align: left;
 }
-.card img {
+.img-container {
     height: 3.75rem;
-    width: 3.75rem;
+
+}
+.card img {
+    width: auto;
+    height: auto;
 }
 .card h4 {
     font-size: 1.5rem;
