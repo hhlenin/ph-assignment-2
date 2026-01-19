@@ -21,6 +21,20 @@
     .hero {
         padding: 6.25rem 2.5rem;
     }
+    .hero-circle {
+        top: 3rem;
+        height: 18rem;
+        padding-bottom: 1.5rem;
+    }
+    .hero-microphone {
+        height: 7rem;
+        top: 7.6rem;
+        left: 9rem;
+    }
+    .badge {
+        top: 4rem;
+        left: 14.5rem;
+    }
 
     .why-choose-group {
         display: grid;

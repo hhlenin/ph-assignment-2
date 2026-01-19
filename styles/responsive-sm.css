@@ -25,6 +25,20 @@
     .hero {
         padding: 2.5rem;
     }
+    .hero-circle {
+        top: 4.5rem;
+        height: 12.5rem;
+        padding-bottom: 1.5rem;
+    }
+    .hero-microphone {
+        height: 5rem;
+        top: 7.6rem;
+        left: 9.5rem;
+    }
+    .badge {
+        top: 4.5rem;
+        left: 14rem;
+    }
 
     .why-choose {
         padding-top: 2.5rem;

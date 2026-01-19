@@ -58,9 +58,10 @@
     width: 75%;
     max-width: 1200px;
     margin: 0 auto;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 }
 .btn {
+    font-size: 1rem;
     padding: .8rem 1rem;
     border-radius: 10000px;
     font-weight: 600;
@@ -137,6 +138,13 @@
 }
 .hero-buttons {
     margin-top: 1.5rem;
+}
+.subscribe-btn {
+    background-image: none;
+    color: #00FF88 !important;
+    background-color: transparent;
+    border: .1rem solid #00FF88 !important;
+    margin-left: .5rem;
 }
 .why-choose {
     padding-top: 7.5rem;
