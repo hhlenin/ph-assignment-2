@@ -56,10 +56,15 @@
 
         padding: .01rem 0;
     }
-    /*footer .container {*/
-    /*    margin-top: 2.5rem;*/
-    /*    margin-bottom: 1.5rem;*/
-    /*}*/
+    footer .container {
+        background-image: url("../assets/footer-bg.png"), linear-gradient(#20113a);
+        background-size: contain;
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem;
+    }
+    .social-links {
+        justify-content: left;
+    }
 
     .achievements {
         grid-template-columns: repeat(3, 1fr);
