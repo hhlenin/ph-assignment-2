@@ -63,4 +63,45 @@
             "gc"
             "ei" "rr";
     }
+
+    .video-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .host-card {
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+    .img-container-host{
+        margin: 0 auto;
+    }
+    .host-info {
+        text-align: center;
+    }
+    .social-links {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .footer-links {
+        gap: 1rem;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        /*margin: 0;*/
+    }
+    .footer-link img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    footer  {
+
+        padding: .01rem 0;
+    }
+    .footer-logo {
+        width: 12rem;
+    }
+    footer .container {
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem;
+    }
 }
